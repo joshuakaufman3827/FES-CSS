@@ -105,6 +105,16 @@ li {
   z-index: 100;
 }
 
+.menu__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu__list {
+  padding: 32px 0;
+}
+
 .btn__menu--close {
   position: absolute;
   right: 20px;
